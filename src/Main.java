@@ -39,7 +39,7 @@ public class Main {
             System.out.println("Age: " + age);
             System.out.println("Average Grade: " + averageGrade);
 
-            double average = studentAverageGrade;
+            double average = AverageGrade;
             if (average < 50) {
                 System.out.println("FAIL");
             } else if (average >= 50 && average < 70) {
