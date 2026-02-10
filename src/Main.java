@@ -34,14 +34,10 @@ public class Main {
             System.out.println("Average grade: " + averageGrade);
             scanner.close();
 
-            String studentName = name;
-            int studentAge = age;
-            double studentAverageGrade = averageGrade;
-
             System.out.println("                                        ");
-            System.out.println("Student: " + studentName);
-            System.out.println("Age: " + studentAge);
-            System.out.println("Average Grade: " + studentAverageGrade);
+            System.out.println("Student: " + name);
+            System.out.println("Age: " + age);
+            System.out.println("Average Grade: " + averageGrade);
 
             double average = studentAverageGrade;
             if (average < 50) {
